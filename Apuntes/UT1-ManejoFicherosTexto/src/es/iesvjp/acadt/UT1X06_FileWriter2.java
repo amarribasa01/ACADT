@@ -4,6 +4,10 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * @author Ana Arribas
+ *
+ */
 public class UT1X06_FileWriter2 {
 
 	public static void main(String[] args) {

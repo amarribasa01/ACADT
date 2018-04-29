@@ -4,6 +4,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * @author Ana Arribas
+ *
+ */
 public class UT1X05_FileReader {
 
 	public static void main(String[] args) {

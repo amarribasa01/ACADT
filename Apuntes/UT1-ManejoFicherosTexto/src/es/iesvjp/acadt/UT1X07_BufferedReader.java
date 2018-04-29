@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * @author Ana Arribas
+ *
+ */
 public class UT1X07_BufferedReader {
 
 	public static void main(String[] args) {

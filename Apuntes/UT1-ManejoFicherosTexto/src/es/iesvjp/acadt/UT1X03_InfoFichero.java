@@ -1,6 +1,10 @@
 package es.iesvjp.acadt;
 import java.io.File;
 
+/**
+ * @author Ana Arribas
+ *
+ */
 public class UT1X03_InfoFichero {
 	
 	 public static void main (String args[])

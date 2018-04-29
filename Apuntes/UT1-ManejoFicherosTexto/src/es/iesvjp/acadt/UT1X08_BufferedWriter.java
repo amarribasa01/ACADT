@@ -4,6 +4,10 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * @author Ana Arribas
+ *
+ */
 public class UT1X08_BufferedWriter {
 
 	public static void main(String[] args) {

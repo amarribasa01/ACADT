@@ -3,6 +3,10 @@ package es.iesvjp.acadt;
 import java.io.File;
 import java.util.Scanner;
 
+/**
+ * @author Ana Arribas
+ *
+ */
 public class UT1X02_FicherosDirectorioPar {
 
 	public static void main(String[] args) {
