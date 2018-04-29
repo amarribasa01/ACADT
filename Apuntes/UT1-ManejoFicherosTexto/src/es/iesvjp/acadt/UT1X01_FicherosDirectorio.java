@@ -1,7 +1,7 @@
 package es.iesvjp.acadt;
 
 import java.io.File;
-import java.util.Scanner;
+
 
 public class UT1X01_FicherosDirectorio {
 
