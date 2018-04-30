@@ -1,2 +1,2 @@
 # ACADT
-Repositorio con los ejercicios de ejemplo de los apuntes
+Repositorio de la asignatura Acceso a Datos de 2º DAM del IES. Valle del Jerte de Plasencia (informatica.iesvalledeljerteplasencia.es)
