@@ -24,8 +24,8 @@ public class UT4X04_JSONReaderWriter {
 		empleados.add(emp1);
 		empleados.add(emp2);
 
-		JSONWriterFile(empleados);
-		//JSONReaderFile();
+		//JSONWriterFile(empleados);
+		JSONReaderFile();
 
 	}
 

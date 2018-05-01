@@ -22,6 +22,7 @@ public class UT4X03_JSONtoJava {
 		Empleado emp1 = gson.fromJson(json, Empleado.class);
 
 		System.out.println(emp1.toString());
+		
 
 	}
 
