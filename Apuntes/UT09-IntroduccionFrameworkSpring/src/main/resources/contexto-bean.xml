@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+
+
+<bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+  <property name="customEditors">
+    <map>
+    <entry key="java.time.LocalDate" value="es.iesvjp.acadt.ConversorFechas"/>
+    </map>
+   </property>
+</bean>
+
+
+<bean id="coche" class="es.iesvjp.acadt.Coche">
+ <property name="marca" value="Seat"></property>
+ <property name="modelo" value="Ibiza"></property>
+ <property name="deposito" value="10"></property>
+</bean>
+
+<bean id="cochepapa" class="es.iesvjp.acadt.Coche">
+ <property name="marca" value="Seat"></property>
+ <property name="modelo" value="Ibiza"></property>
+</bean>
+
+<bean id="conductor" class="es.iesvjp.acadt.Conductor">
+  <constructor-arg name="fecha" value="1992-12-05"></constructor-arg>
+  <constructor-arg name="vehiculo" ref="coche"></constructor-arg>
+
+</bean>
+
+
+</beans>
